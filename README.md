@@ -1,1 +1,1 @@
-# vue-auth
+# vue-crud-jwt
