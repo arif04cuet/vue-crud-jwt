@@ -112,6 +112,10 @@ export default {
         .then((response) => {
           this.$store.dispatch("setError", {});
           this.$router.push({ name: "product-list" });
+          this.flashMessage.success({
+            title: "Success",
+            message: "Product saved successfully",
+          });
           return response;
         })
         .catch((error) => {
@@ -125,6 +129,10 @@ export default {
         .then((response) => {
           this.$store.dispatch("setError", {});
           this.$router.push({ name: "product-list" });
+          this.flashMessage.success({
+            title: "Success",
+            message: "Product updated successfully",
+          });
           return response;
         })
         .catch((error) => {

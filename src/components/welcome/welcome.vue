@@ -1,7 +1,7 @@
 <template>
   <div id="welcome">
     <h1>Vue Authentication with JWT and Laravel</h1>
-    <p>Here you go!</p>
+    <p>please login to add products</p>
     <div class="cta">
       <router-link to="/signup">Sign Up</router-link>
       <router-link to="/signin">Sign In</router-link>

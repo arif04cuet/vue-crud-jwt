@@ -3,10 +3,12 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import axios from 'axios'
-
+import FlashMessage from '@smartweb/vue-flash-message';
 
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
+
+Vue.use(FlashMessage);
 
 // add to ken to restricted route
 const token = localStorage.getItem('token')
